@@ -14,7 +14,7 @@ const scene = new THREE.Scene();
 let cycle;
 let mixer;
 const loader = new GLTFLoader();
-loader.load('/old_german_bicycle_ww2.glb',
+loader.load('https://mpk-web-developer.github.io/3d-animation-landing-page/old_german_bicycle_ww2.glb',
     function (gltf) {
         cycle = gltf.scene;
         scene.add(cycle);
